@@ -1,0 +1,11 @@
+package com.orbit.test.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.orbit.test.repository.EmployeeRepository;
+
+public class EmployeeServiceImpl implements IEmployeeService {
+
+	@Autowired
+	private EmployeeRepository repo;
+}

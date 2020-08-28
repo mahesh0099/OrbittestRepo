@@ -1,0 +1,5 @@
+package com.orbit.test;
+
+public interface IEmployeeService {
+
+}

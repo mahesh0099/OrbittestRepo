@@ -1,0 +1,14 @@
+package com.tcs.test;
+
+public class StringTest {
+	public static void main(String[] args) {
+		
+		String str="Interview$tcs#test";
+		String[] s=str.split("$");
+		
+		System.out.println(s);
+		
+	}
+	
+
+}

@@ -1,0 +1,46 @@
+package com.tcs.test;
+
+public class StringTest {
+	public static void main(String[] args) {
+		
+		String str="Interview$tcs#test";
+		String reverse="";
+		String newString="";
+		String newString1="";
+		
+		String[] splitStr=str.split("$");
+		
+		String[] splitStr1=str.split("#");
+		System.out.println(splitStr1.length);
+		
+		newString=splitStr[0];
+		for(int i=newString.length()-1;i>0;i--)
+		{
+			 
+			
+			
+		}
+		System.out.println(newString.length());
+		for(int i=0;i<splitStr1.length;i++)
+		{
+			 newString1=splitStr1[i];
+			
+		}
+		
+			
+			
+			for(int j=newString.length()-1;j>0;j++)
+			{
+				char c=newString.charAt(j);
+				reverse=reverse+c;
+			}
+			System.out.println(reverse);
+		
+		
+	}
+
+	
+	
+	}
+	
+

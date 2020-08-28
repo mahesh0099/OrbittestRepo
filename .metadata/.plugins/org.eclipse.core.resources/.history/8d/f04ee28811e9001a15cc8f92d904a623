@@ -1,0 +1,46 @@
+package com.orbit.test.model;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+
+@Entity
+public class Employee {
+
+	private Integer empId;
+	private String empName;
+	private String empCountryName;
+	
+	public Employee(Integer empId, String empName, String empCountryName) {
+		this.empId=empId;
+		this.empName=empName;
+		this.empCountryName=empCountryName;
+	}
+	public Integer getEmpId() {
+		return empId;
+	}
+	public void setEmpId(Integer empId) {
+		this.empId = empId;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	public String getEmpCountryName() {
+		return empCountryName;
+	}
+	public void setEmpCountryName(String empCountryName) {
+		this.empCountryName = empCountryName;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empCountryName=" + empCountryName + "]";
+	}
+	
+	
+	
+	
+}

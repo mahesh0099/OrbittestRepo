@@ -1,0 +1,9 @@
+package com.orbit.test.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.orbit.test.model.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+
+}

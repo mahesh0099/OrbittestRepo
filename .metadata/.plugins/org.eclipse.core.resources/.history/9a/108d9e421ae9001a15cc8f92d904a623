@@ -1,0 +1,12 @@
+package com.tcs.test;
+
+public class StringTest {
+
+	String str="Interview#tcs#test";
+	
+	String[] splitStr=str.split("#");
+	for(int i=0;i<split)
+	
+	
+	
+}
